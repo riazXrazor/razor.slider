@@ -13,7 +13,11 @@ give it an id or class or any valid Jquery selector.
 ```
 include jQuery, the razor.slider.js or razor.slider.min.js file and the razor.slider.css or razor.slider.min.css file in the footer of your page and header of your page respectively, of course, call the function:
 
-```
+``` 
+         <!-- IN HEAD -->
+        <link rel="stylesheet" href="css/razor.slider.css" />
+ 
+         <!-- JUST ABOVE BODY END TAG -->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
         <script src="js/razor.slider.jquery.js"></script>
         <script>
