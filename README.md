@@ -2,14 +2,14 @@
 Razor Slider is super simple to set up. Just create an element, and put your content inside. If your content is of different heights, razor slider will animate smoothly to accommodate it.
 give it an id or class or any valid Jquery selector.
 ```HTML
-        <ul id="rslide">
-            <li><img src="images/1.jpg" alt="1.jpg"/></li>
-            <li><img src="images/2.jpg" alt="2.jpg"/></li>
-            <li><img src="images/3.jpg" alt="3.jpg"/></li>
-            <li><h1>Text Slide</h1></li>
-            <li><img src="images/5.jpg" alt="5.jpg"/></li>
-            <li><img src="images/5.jpg" alt="5.jpg"/></li>
-        </ul>
+            <ul class="razor-slider">
+                <li><img src="images/1.jpg" alt="1.jpg"/></li>
+                <li><img width="200" height="200" src="images/2.jpg" alt="2.jpg"/></li>
+                <li><img src="images/3.jpg" alt="3.jpg"/></li>
+                <li><img src="images/4.jpg" alt="4.jpg"/></li>
+                <li><img src="images/5.jpg" alt="5.jpg"/></li>
+                <li><img src="images/5.jpg" alt="5.jpg"/></li>
+            </ul>
 ```
 include jQuery, the razor.slider.js or razor.slider.min.js file and the razor.slider.css or razor.slider.min.css file in the footer of your page and header of your page respectively, of course, call the function:
 
@@ -22,7 +22,7 @@ include jQuery, the razor.slider.js or razor.slider.min.js file and the razor.sl
         <script src="js/razor.slider.jquery.js"></script>
         <script>
             $(function(){
-                $("#rslide").razorslider();
+                $(".razor-slider").razorslider();
             });    
         </script>
 ```
