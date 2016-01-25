@@ -31,7 +31,7 @@ include jQuery, the razor.slider.js or razor.slider.min.js file and the razor.sl
 Razor Slider includes the following options for your content sliding needs. Just include the ones you want to change.
 
 ```javascript
-$("#rslide").razorslider({
+$(".razor-slider").razorslider({
    autoplay : false, //autoplay default is false set it to true to slide auto
    controls: true,  //left and right nav set it to false to hide it
    indicators: true, // small bullets at the bottom set it to false to hide it
