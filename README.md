@@ -1,7 +1,7 @@
 ###BASIC USAGE.
 Razor Slider is super simple to set up. Just create an element, and put your content inside. If your content is of different heights, razor slider will animate smoothly to accommodate it.
 give it an id or class or any valid Jquery selector.
-```
+```HTML
         <ul id="rslide">
             <li><img src="images/1.jpg" alt="1.jpg"/></li>
             <li><img src="images/2.jpg" alt="2.jpg"/></li>
@@ -40,6 +40,8 @@ $("#rslide").razorslider({
    easing:'easeOutQuad', // type of easing u would like for slides
    controlRight:'&raquo;', // right control text
    controlLeft:'&laquo;', // left control text
+   sliderType:'image', // image|content
+   imageSize:'auto', //auto|center
    onSlide:function(){
     // this event triggers immediately on slide change
    },  
